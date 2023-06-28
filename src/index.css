@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		@apply outline outline-[0.5px] outline-green-300;
+	}
+
+	section {
+		@apply container mx-auto;
+	}
+
+	section > div,
+	article {
+		@apply prose max-w-none;
+	}
+}
